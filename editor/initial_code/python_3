@@ -1,12 +1,12 @@
-def sum_two(a, b):
+def say_hi(name, age):
     """
-        sums two passed arguments
+        Hi!
     """
     # your code here
-    return None
+    return "Hi. My name is Alex and I'm 32 years old"
 
 if __name__ == '__main__':
     #These "asserts" using only for self-checking and not necessary for auto-testing
-    assert sum_two(3, 2) == 5, "First"
-    assert sum_two(5, 7) == 12, "Second"
-    print('Done')
+    assert say_hi("Alex", 32) == "Hi. My name is Alex and I'm 32 years old", "First"
+    assert say_hi("Frank", 68) == "Hi. My name is Frank and I'm 68 years old", "Second"
+    print('Done. Time to Check.')

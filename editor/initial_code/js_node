@@ -1,16 +1,14 @@
 "use strict";
 
-function sumTwo(a, b) {
-    // sums two passed arguments
-
+function sayHi(name, age) {
     // your code here
-    return 0;
+    return "Hi. My name is Alex and I'm 32 years old";
 }
 
 var assert = require('assert');
 
 if (!global.is_checking) {
-    assert.equal(sumTwo(3, 2), 5, "First")
-    assert.equal(sumTwo(5, 7), 12, "Second")
+    assert.equal(say_hi("Alex", 32), "Hi. My name is Alex and I'm 32 years old")
+    assert.equal(say_hi("Frank", 68), "Hi. My name is Frank and I'm 68 years old", "Second")
     console.log("Coding complete? Click 'Check' to review your tests and earn cool rewards!");
 }
