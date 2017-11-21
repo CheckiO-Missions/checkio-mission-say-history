@@ -1,5 +1,8 @@
 "use strict";
 
+// 1. on CheckiO your solution should be a function
+// 2. the function should return the right answer, not print it.
+
 function sayHi(name, age) {
     // your code here
     return "Hi. My name is Alex and I'm 32 years old";
