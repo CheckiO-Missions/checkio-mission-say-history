@@ -1,0 +1,48 @@
+<body data-author="oduvan">
+<div class="question-answer">
+    <div class="question">
+        Can you give me a small hint?
+    </div>
+    <div class="answer">
+        You might want to check how <a href="https://docs.python.org/3/library/string.html#format-examples">str.format</a> function works in Python.
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        Can you show me how can I use it for this mission?
+    </div>
+    <div class="answer">
+        Sure.
+<pre style="brush: python">
+"Hi. My name is {} and I'm {} years old".format('Alex', 32)
+</pre>
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        Show me more...
+    </div>
+    <div class="answer">
+        Well. 'Alex' and 32 are input arguments name, age in function say_hi.
+        Which means the extpression might look like this
+<pre style="brush: python">
+"Hi. My name is {} and I'm {} years old".format(name, age)
+</pre>
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        Looks like it is a solution, but still doesn't work. What I'm doing wrong?
+    </div>
+    <div class="answer">
+        on CheckiO your solution should be a function. Which means the final version should look like this
+<pre class="brush: python">
+def say_hi(name, age):
+    return "Hi. My name is {} and I'm {} years old".format(name, age)
+</pre>
+        This this it. Just use this code to check the mission and go try to solve the next one
+    </div>
+</div>
+
+
+</body>
