@@ -1,0 +1,48 @@
+<body data-author="oduvan">
+<div class="question-answer">
+    <div class="question">
+        Czy może mi Pan coś podpowiedzieć?
+    </div>
+    <div class="answer">
+        Może zechce Pan sprawdzić, jak <b style="text-decoration: underline;"><a href="https://docs.python.org/3/library/string.html#format-examples">str.format</a></b> działa w Pythonie.
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        Czy może mi Pan pokazać, jak mogę jej użyć w tej misji?
+    </div>
+    <div class="answer">
+        Oczywiście.
+<pre class="brush: python">
+"Hi. My name is {} and I'm {} years old".format('Alex', 32)
+</pre>
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        Proszę pokazać mi więcej...
+    </div>
+    <div class="answer">
+        Cóż. 'Alex' i 32 są argumentami wejściowymi imię i wiek dla funkcji say_hi.
+        Co oznacza, że wyrażenie może wyglądać następująco
+<pre class="brush: python">
+"Hi. My name is {} and I'm {} years old".format(name, age)
+</pre>
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        Wygląda na to, że jest to rozwiązanie, ale nadal nie działa. Co robię źle?
+    </div>
+    <div class="answer">
+        w CheckiO Pana rozwiązanie powinno być funkcją. Co oznacza, że ostateczna wersja powinna wyglądać następująco
+<pre class="brush: python">
+def say_hi(name, age):
+    return "Hi. My name is {} and I'm {} years old".format(name, age)
+</pre>
+        To jest to. Proszę użyć tego kodu, aby sprawdzić misję i spróbować rozwiązać następną
+    </div>
+</div>
+
+
+</body>
